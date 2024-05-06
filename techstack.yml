@@ -1,0 +1,203 @@
+repo_name: assistaplus/assp-gpt4all-cli
+report_id: 6118faef82a070845ca5d02d3fff2a35
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:40:29+00:00'
+requested_by: renovate[bot]
+provider: github
+branch: main
+detected_tools_count: 15
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Huynh Duc Dung
+  last_updated_on: 2023-04-08 15:23:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/.github/workflows/todo.yml
+  detection_source: ".github/workflows/todo.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-08 02:10:27.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-17 17:59:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Huynh Duc Dung
+  last_updated_on: 2023-04-08 15:23:45.000000000 Z
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Huynh Duc Dung
+  last_updated_on: 2023-04-08 15:23:45.000000000 Z
+- name: "@types/debug"
+  description: TypeScript definitions for debug
+  package_url: https://www.npmjs.com/@types/debug
+  version: 4.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-17 07:20:03.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-17 07:20:03.000000000 Z
+- name: "@types/prettier"
+  description: TypeScript definitions for prettier
+  package_url: https://www.npmjs.com/@types/prettier
+  version: 2.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-17 17:59:34.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-10-13 01:36:51.000000000 Z
+- name: consola
+  description: Elegant Console Logger for Node.js and Browser
+  package_url: https://www.npmjs.com/consola
+  version: 3.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18067/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-07-06 02:10:07.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-09 04:09:27.000000000 Z
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 4.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-gpt4all-cli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Huynh Duc Dung
+  last_updated_on: 2023-04-08 15:23:45.000000000 Z
